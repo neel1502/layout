@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="photos.css">
 </head>
+
 <body>
     <header class="header">
         <img src="nature.jpg" alt="" class="a">
@@ -18,18 +19,18 @@
             <li><a href="" class="a1">Contact</a></li>
         </ul>
     </header>
-    <div class="background-image">
-        <img src="bird.jpg" alt="" class="img-2">
+    <div class="background-image"
+        style="background-image: url(nature5.jpg); background-position: center; height: 280px; width: 100%;">
         <div class="container">
-            <form action="" class="example" name="search">
+            <form action="" class="example" name="search" style="width:80%">
                 <input type="text" placeholder="search">
-                <button type="submit"></button>
+                <button type="submit">submit</button>
             </form>
         </div>
     </div>
-    <div>
-        <h2>Latest Photos</h2>
-    </div>
+
+    <h2>Latest Photos</h2>
+
     <div class="container">
         <img src="nature2.jpg" class="horizontal" />
         <img src="nature3.jpg" class="horizontal" />
@@ -42,14 +43,16 @@
         <img src="nature8.jpg" class="horizontal" />
         <img src="nature9.jpg" class="horizontal" />
     </div>
-    <div class="pagination-part">
-        <button type="submit">Previous</button>
-    </div>
-    <div class="pagination">
-        <button><a href="" class="active">1</a></button>
-        <button><a href="">2</a></button>
-        <button><a href="">3</a></button>
-        <button><a href="">4</a></button>
+    <div class="pagination-div">
+        <div class="pagination-part">
+            <button type="submit">Previous</button>
+        </div>
+        <div class="pagination">
+            <button><a href="" class="active">1</a></button>
+            <button><a href="">2</a></button>
+            <button><a href="">3</a></button>
+            <button><a href="">4</a></button>
+        </div>
         <div class="pagination-next">
             <button type="submit">Next Page</button>
         </div>
@@ -58,8 +61,8 @@
         <div class="about">
             <h1>About Catalog-z</h1>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium officia veniam cupiditate ab
-            voluptatibus fugiat temporibus sint laborum aliquam eligendi consectetur earum vero nam in voluptatum,
-            aperiam, illum architecto repellendus.
+            voluptatibus fugiat temporibus sint laborum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
+            sequi quo, omnis iure suscipit perspiciatis.
         </div>
         <div class="link">
             <h1>Our Links</h1>
@@ -69,11 +72,12 @@
             <a href="">Contact</a>
         </div>
         <div class="logo">
-            <img src="fb.jpeg" class="footer-logo">
-            <img src="twitter.png" class="footer-logo">
-            <img src="insta.jpeg" class="footer-logo">
-            <img src="pinterset.png" class="footer-logo">
+            <button><img src="fb.jpeg" class="footer-logo"></button>
+            <button><img src="twitter.png" class="footer-logo"></button>
+            <button><img src="insta.jpeg" class="footer-logo"></button>
+            <button><img src="pinterset.png" class="footer-logo"></button>
         </div>
+      
     </footer>
 </body>
 
