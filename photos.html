@@ -10,14 +10,20 @@
 
 <body>
     <header class="header">
-        <img src="nature.jpg" alt="" class="a">
-        <h1>Catalog-Z</h1>
-        <ul>
-            <li><a href="" class="a1">Photos</a></li>
-            <li><a href="" class="a1">Videos</a></li>
-            <li><a href="" class="a1">About</a></li>
-            <li><a href="" class="a1">Contact</a></li>
-        </ul>
+        <div class="navbar-part">
+            <div class="image-top">
+                <img src="nature.jpg" alt="" class="a">
+                <h1>Catalog-Z</h1>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#" class="nav-link">Photos</a></li>
+                    <li><a href="#" class="nav-link">Videos</a></li>
+                    <li><a href="#" class="nav-link">About</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <div class="background-image"
         style="background-image: url(nature5.jpg); background-position: center; height: 280px; width: 100%;">
@@ -32,16 +38,57 @@
     <h2>Latest Photos</h2>
 
     <div class="container">
-        <img src="nature2.jpg" class="horizontal" />
-        <img src="nature3.jpg" class="horizontal" />
-        <img src="nature4.jpg" class="horizontal" />
-        <img src="nature5.jpg" class="horizontal" />
+        <div class="oct"><img src="nature2.jpg" class="horizontal"/>
+            <div>
+                <span class="text-gray">18 Oct 2020</span>
+            <span>9906 views</span>
+            </div>
+        </div>
+        <div class="oct"><img src="nature3.jpg" class="horizontal"/>
+            <div>
+                <span class="text-gray">14 Oct 2020</span>
+                <span>16100 views</span>
+            </div>
+        </div>
+        <div class="oct"><img src="nature4.jpg" class="horizontal"/>
+            <div>
+                <span class="text-gray">12 Oct 2020</span>
+                <span>12460 views</span>
+            </div>
+        </div>
+        <div class="oct"><img src="nature5.jpg" class="horizontal"/>
+            <div>
+                <span class="text-gray">10 Oct 2020 </span>
+                <span>11402 views</span>
+            </div>
+
+        </div>
     </div><br><br><br>
     <div class="container">
-        <img src="nature6.jpg" class="horizontal" />
-        <img src="nature7.jpg" class="horizontal" />
-        <img src="nature8.jpg" class="horizontal" />
-        <img src="nature9.jpg" class="horizontal" />
+        <div class="sep"><img src="nature6.jpg" class="horizontal" />
+            <div>
+                <span class="text-gray">24 Sep 2020</span>
+            <span>16008 views</span>
+            </div>
+        </div>
+        <div class="sep"><img src="nature7.jpg" class="horizontal" />
+            <div>
+                <span class="text-gray">20 Sep 2020</span>
+            <span>12860 views</span>
+            </div>
+        </div>
+        <div class="sep"><img src="nature8.jpg" class="horizontal" />
+            <div>
+                <span class="text-gray">16 Sep 2020</span>
+            <span>10900 views</span>
+            </div>
+        </div>
+        <div class="sep"><img src="nature9.jpg" class="horizontal" />
+            <div>
+                <span class="text-gray">12 Sep 2020</span>
+            <span>11300 views</span>
+            </div>
+        </div>
     </div>
     <div class="pagination-div">
         <div class="pagination-part">
@@ -57,27 +104,30 @@
             <button type="submit">Next Page</button>
         </div>
     </div>
-    <footer>
+    <footer class="footer-distributed">
         <div class="about">
-            <h1>About Catalog-z</h1>
+            <h3>About Catalog-z</h3>
+            <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium officia veniam cupiditate ab
-            voluptatibus fugiat temporibus sint laborum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum
+            voluptatibus fugiat temporibus sint laborum Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Rerum
             sequi quo, omnis iure suscipit perspiciatis.
+            </p>
         </div>
         <div class="link">
-            <h1>Our Links</h1>
+            <h3>Our Links</h3>
             <a href="">Advertise</a>
             <a href="">Support</a>
             <a href="">Our Company</a>
             <a href="">Contact</a>
         </div>
         <div class="logo">
-            <button><img src="fb.jpeg" class="footer-logo"></button>
-            <button><img src="twitter.png" class="footer-logo"></button>
-            <button><img src="insta.jpeg" class="footer-logo"></button>
-            <button><img src="pinterset.png" class="footer-logo"></button>
+            <a><img src="fb.jpeg" class="footer-logo"></a>
+            <a><img src="twitter.png" class="footer-logo"></a>
+            <a><img src="insta.jpeg" class="footer-logo"></a>
+            <a><img src="pinterset.png" class="footer-logo"></a>
         </div>
-      
+
     </footer>
 </body>
 
