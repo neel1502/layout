@@ -1,7 +1,38 @@
+body{
+    overflow-x: hidden;
+}
+
 .a{
     height: 40px;
     width: 40px;
 }
+.header{
+    padding: 0.5em 1em;
+  }
+  .navbar-part{
+    float: left;
+  }
+  .image-top h1 {
+    font-size: 1.5em;
+    display: inline-block;
+  }
+  .image-top img {
+    max-width: 55px;
+    float: left;
+  }
+  .navbar{
+    float: right;
+    margin-left: 885px;
+  }
+    
+  .navbar ul, li {
+    margin: 0; 
+    padding: 0;
+  }
+  .navbar li {
+    display: inline-block;
+  }
+  
 .header{
     background: #fff;
     color: #000;
@@ -16,15 +47,12 @@
     width:30px;
 }
 .image-top{
-
-    padding: 10px;
     display: inline-block;
 }
 .image-top img{
-    margin-top:25px;
+    margin-top:12px;
 }
 .nav-link{
-    padding: 0.5rem 1rem;
     font-size: 1.2rem;
     margin: 0px;
 }
@@ -52,14 +80,12 @@ h1{
 }
 .navbar {
     height: 60px; 
-    margin-left: 200px;
+    margin-left: 875px;
   }
   .navbar li {
     display: inline-block;
     list-style: none;
     height: 60px;
-
-    padding: 0 40px; 
   }
   ul{
     list-style-type: none;
@@ -73,8 +99,6 @@ h1{
   }
   .navbar a{
     display: inline-block;
-    margin: 5px;
-    padding: 5px;
   }
  .navbar-part{
     display: inline-flex;
@@ -118,6 +142,9 @@ a{
     justify-content: flex-start;
     display: inline-flex;
 }
+.background-image{
+    margin-top: 60px;
+}
 
 h2{
     color:#009999;
@@ -147,7 +174,7 @@ h2{
 .about-pic1{
     width: 70%;
     display: inline-block;
-    margin-left: 38px;
+    margin-left: 50px;
 }
 
 .left {

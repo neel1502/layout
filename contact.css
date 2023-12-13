@@ -1,7 +1,39 @@
+body{
+    overflow-x: hidden;
+}
 .a{
     height: 40px;
-    width: 40px;
+    width: 40px
 }
+.header{
+    padding: 0.5em 1em;
+  }
+  .navbar-part{
+    float: left;
+  }
+  .image-top h1 {
+    font-size: 1.5em;
+    display: inline-block;
+  }
+  .image-top img {
+    max-width: 55px;
+    float: left;
+  }
+  .navbar{
+    float: right;
+    margin-left: 885px;
+  }
+    
+  .navbar ul, li {
+    margin: 0; 
+    padding: 0;
+  }
+  .navbar li {
+    display: inline-block;
+    margin: 10px;
+    padding: 7px;
+  }
+  
 .header{
     background: #fff;
     color: #000;
@@ -20,10 +52,9 @@
     display: inline-block;
 }
 .image-top img{
-    margin-top:25px;
+    margin-top:12px;
 }
 .nav-link{
-    padding: 0.5rem 1rem;
     font-size: 1.2rem;
     margin: 0px;
 }
@@ -45,19 +76,18 @@ h1{
     width: 100%;
     height: 35px;
 }
-.navbar li{
-    margin: 10px;
-    padding: 10px;
-}
 .navbar {
     height: 60px; 
-    margin-left: 200px;
+    margin-left:885px;
+    margin-top: 10px;
+    justify-content: center;
   }
   .navbar li {
     display: inline-block;
     list-style: none;
     height: 60px;
-    padding: 0 40px; 
+    margin: 10px;
+    padding: 8px;
   }
   ul{
     list-style-type: none;
@@ -71,8 +101,6 @@ h1{
   }
   .navbar a{
     display: inline-block;
-    margin: 5px;
-    padding: 5px;
   }
  .navbar-part{
     display: inline-flex;
@@ -113,14 +141,15 @@ a{
     justify-content: flex-start;
     display: inline-flex;
 }
- .personal-info{
-    column-count: 3;
- } 
+.background-image{
+    margin-top: 60px;
+}
 .personal-info h2{
     color: #009999;
     font-family: sans-serif;
     font-size: 30px;
     margin-left: 15px;
+    width:33%;
 }
 .contact{
     display: inline-block;
@@ -163,7 +192,6 @@ form{
 .address p{
     color:rgb(153,153,153);
     line-height: 1.8;
-    align-items: justify;
 }
 .address .logo p:hover{
     color: #009999;
@@ -173,7 +201,6 @@ form{
     height: 17px;
     width: 30px;
     color: rgb(153,153,153);
-    /* margin-top: 20px; */
 }
 .logo p{
     display: block;
